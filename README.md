@@ -27,7 +27,7 @@ The **Social Links Profile** is a simple yet effective component that allows use
 
 ## Links
 
-- [Live Demo](#) *(Replace with live site URL)*
+- [Live Demo](https://gar-st.github.io/social-links-profile/) *(Replace with live site URL)*
 - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
 
 ## Built With
