@@ -23,7 +23,7 @@ The **Social Links Profile** is a simple yet effective component that allows use
 
 ## Screenshot
 
-![Social Links Profile Screenshot](./design/desktop-design.jpg)
+![Social Links Profile Screenshot](./design/destkop-design.jpg)
 
 ## Links
 
