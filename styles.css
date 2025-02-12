@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(20, 20, 20);
+}
+
+.profile-card {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 12px;
+    background: rgb(31, 31, 31);
+    gap: 24px;
+}
+
+.profile-card__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.profile-card__avatar img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.profile-card__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card__name{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.profile-card__location{
+    color: rgb(196, 248, 42);
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.profile-card__bio{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-card__actions{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    background: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #C4F82A;
+        color: rgb(51, 51, 51);
+    }
+    &:active{
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 24px;
+    }
+    .profile-card {
+        padding: 24px;
+    }
+}
